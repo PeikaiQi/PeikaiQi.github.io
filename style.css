@@ -1,0 +1,96 @@
+/* HEADER */
+header {
+   	text-align:center;
+	border-bottom:1px solid;
+}
+
+header nav {
+	border-bottom:solid;
+	border-bottom:1px solid;
+	overflow:hidden;
+	color:white;
+	font-size: 150%;
+}
+
+header nav a {
+	padding: 16px;
+}
+
+/* NAVIGATION BAR */
+nav {
+	overflow:hidden;
+}
+
+nav a {
+	display:block;
+	text-align:center;
+	text-decoration:none;
+}
+
+nav a:hover {
+    background-color:#ddd;
+    color:black;
+}
+
+.padded {
+	padding: 16px;
+}
+
+/* TABLE */
+
+table {
+    display: table;
+    table-layout: auto;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+table nav a {
+	display:block;
+	text-align:center;
+	text-decoration:none;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    horizontal-alight: middle;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    horizontal-alight: middle;
+    border-color: inherit;
+}
+
+td, th {
+    	display: table-cell;
+    	vertical-align: inherit;
+  	padding: 10px;
+	border: solid 1px;
+	text-align:center;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* SECTION */
+section {
+	border-bottom:1px solid;
+	overflow:hidden;
+}
+
+section nav a {
+	padding: 12px;
+}
+
+/* FOOTER */
+footer {
+	overflow:hidden;
+	border-top:solid;
+}
