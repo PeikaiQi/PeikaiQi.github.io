@@ -1,1 +1,9 @@
 个人主页是用BIG-IP Edge Client连上学校的网再通过WinSCP上传文档和编辑的。内容已经全部下载备份
+
+
+the original peikai qi picture is 450 675px
+
+
+<link rel="stylesheet" type="text/css" href="/users/qipeikai/style.css" />中把下面删去
+/users/qipeikai/  才能使用css 风格
+可以改成href="/style.css" or href="../style.css"
